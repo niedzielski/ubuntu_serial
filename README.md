@@ -23,6 +23,8 @@ Copyright 2012 Stephen Niedzielski. Licensed under GPLv3.
 1. `sudo rm -rf iso_rw`
 
 ## Installation on VM
+Note: Ubuntu Server 12.04 LTS consumes about 1.8 GB. I recommend a 4 GB install.
+
 ![](https://raw.github.com/niedzielski/ubuntu_serial/master/docs/2012-10-07-14-00-08-195673682.png) <br />
 ![](https://raw.github.com/niedzielski/ubuntu_serial/master/docs/2012-10-07-14-00-14-806935120.png) <br />
 ![](https://raw.github.com/niedzielski/ubuntu_serial/master/docs/2012-10-07-14-00-20-519735547.png) <br />
