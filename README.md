@@ -33,6 +33,7 @@ Copyright 2012 Stephen Niedzielski. Licensed under GPLv3.
 ![](https://raw.github.com/niedzielski/ubuntu_serial/master/docs/2012-10-07-14-02-24-641066033.png) <br />
 
 1. `socat UNIX-CONNECT:/tmp/precise_server_serial_0_pipe PTY,link=/tmp/precise_server_serial_0_pty&`
+1. `echo stty cols $COLUMNS rows $LINES` (Copy and paste this after logging into the VM.)
 1. `screen /tmp/precise_server_serial_0_pty 115200`
 
 Note: `sudo adduser "$USER" dialout`
