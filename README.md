@@ -60,4 +60,5 @@ See also: `info -f grub`
 1. `time sudo dd if=precise_server_serial_0.img #of=/dev/sdX`. This took about 18 minutes to copy over a USB to SD converter on a class 10 card and about 27 and a half minutes on an unmarked card, and about five and half minutes over a USB to SATA converter. If all works well, you should see some parititons in `gparted`.
 
 ## Boot QEMU from a Real HDD
-`sudo qemu-system-x86_64 -enable-kvm -m 512 #/dev/sdX`
+`sudo qemu-system-x86_64 -nographic #/dev/sdX`
+(Exit it with ctrl-a x).
